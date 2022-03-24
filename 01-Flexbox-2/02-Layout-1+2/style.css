@@ -17,3 +17,18 @@ body {
 /* ---------------------------------------------------- */
 
 
+.kontejner{
+  display: flex;
+}
+.levy{
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+.pravy{
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+.dolni,
+.horni{
+  height: 50%;
+}
