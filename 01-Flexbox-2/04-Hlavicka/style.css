@@ -27,6 +27,8 @@ a:hover {
 /* ---------------------------------------------------- */
 .hlavicka{
 	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 .menu{
 	display: flex;
@@ -35,13 +37,10 @@ a:hover {
 	
 }
 .menu li{
-	display: inline-block;
-	text-decoration: none;
+	list-style: none;
 }
+/*
 .logo{
-	padding: 10px;
+	
 	flex-grow: 1;
-}
-.menu a{
-	padding: 10px;
-}
+}*/

@@ -23,13 +23,13 @@ body {
 }
 .horni{
   flex-basis: 100%;
-  flex-shrink: 0;
+  /*flex-shrink: 0;
 }
 .spodek{
-  display: flex;
+  display: flex;*/
 }
 .prvni, .druhy, .treti{
-  flex-basis: 33.333%;
-  flex-shrink: 0;
+  flex-basis: 33.333%;}
+ /* flex-shrink: 0;
   flex-grow: 1;
-}
+}*/

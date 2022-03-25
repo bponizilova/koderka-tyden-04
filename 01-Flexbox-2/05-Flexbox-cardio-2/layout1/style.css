@@ -20,3 +20,18 @@ nav {
 /* -------------------------------------------- */
 
 
+.main {
+	display: flex;
+
+}
+nav, aside {
+	flex-basis: 20%;
+	padding: 50px;
+}
+article{
+	flex-grow: 1;
+	padding: 50px;
+}
+header, footer{
+	padding: 25px;
+}

@@ -27,8 +27,10 @@ body {
 .pravy{
   flex-basis: 50%;
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 .dolni,
 .horni{
-  height: 50%;
+  flex-basis: 50%;
 }
