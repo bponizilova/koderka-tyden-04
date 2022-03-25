@@ -19,4 +19,24 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+.main {
+	display: flex;
+}
+.leva {
+		flex-basis: 20%;
+	}
+.prava {
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: 80%;
+}
 
+header, footer{
+	flex-basis: 100%;
+	flex-shrink: 0;
+	padding-bottom: 40px;
+}
+article, aside{
+	flex-basis: 50%;
+	padding-bottom: 120px;
+}

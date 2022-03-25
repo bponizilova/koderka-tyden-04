@@ -7,7 +7,7 @@ footer {
 	background: yellowgreen;
 }
 
-aside {
+article {
 	background: beige;
 }
 
@@ -19,4 +19,26 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+.main{
+	display: flex;
+}
+.article{
+	background-color: blanchedalmond;
+	display: flex;
+	flex-direction: column;
+	
+	flex-grow: 1;
+	flex-shrink: 0;
+}
+nav{
+	flex-basis: 20vw;
+	padding-bottom: 130px;
+	flex-shrink: 0;
+}
 
+header, footer {
+	flex-grow: 1;
+}
+article{
+	flex-grow: 4;
+}
